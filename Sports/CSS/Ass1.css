@@ -1,0 +1,190 @@
+body {
+  box-shadow: 0px 0px 20px black;
+  /* margin: 0px; */
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(221, 218, 214);
+  align-items: center;
+  justify-content: flex-end;
+}
+header > h2 {
+  margin-right: auto;
+  margin-left: 40px;
+  border: 2px solid black;
+}
+h2 span {
+  color: red;
+}
+#nav-link {
+  display: flex;
+  gap: 0px 30px;
+  margin-right: 150px;
+}
+#nav-link > a {
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+}
+#nav-link > a:hover {
+  color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 0px 10px;
+  background: linear-gradient(43deg, rgb(20, 194, 210), rgb(221, 99, 217));
+}
+/*section--------*/
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 218, 214);
+}
+section > div > h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(2, 2, 2);
+}
+button {
+  background-color: brown;
+  padding: 5px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+#fash {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 70px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px;
+}
+#fash > img {
+  width: 200px;
+  height: 300px;
+  margin-top: 50px;
+}
+#fash > img:hover {
+  cursor: pointer;
+
+  /* background-color: rgba(0px, 0px, 0px, 0.5); */
+  opacity: 0.7;
+}
+
+/*prod-----------------*/
+#prod {
+  text-align: center;
+}
+
+#prod1 > img {
+  width: 200px;
+  height: 200px;
+}
+#prod1 > img:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+/*------brand-----------*/
+#brand {
+  margin: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(43deg, rgb(241, 237, 237), rgb(240, 202, 205));
+}
+
+/*card---------*/
+#card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card-one {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px black;
+  padding: 5px 10px;
+  margin: 5px 20px;
+  width: 200px;
+  height: auto;
+}
+#card-two {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px black;
+  padding: 5px 10px;
+  margin: 5px 20px;
+}
+#card-three {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px black;
+  padding: 5px 10px;
+  margin: 5px 20px;
+}
+
+/*---------media query-------------*/
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(221, 218, 214);
+
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: rgb(221, 218, 214);
+    overflow: hidden;
+  }
+  div {
+    margin: 40px;
+  }
+}
+/*--------footer----------------------*/
+footer {
+  margin-top: 20px;
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0px 80px;
+  background-color: black;
+}
+h3 {
+  color: white;
+}
+h3 + p {
+  font-size: small;
+  color: rgb(177, 171, 171);
+}
+h3 span {
+  color: red;
+}
+h3 + ol {
+  color: rgb(213, 221, 221);
+  font-size: small;
+  margin-left: -30px;
+}
+ol {
+  list-style-type: none;
+}
+.foot {
+  background-color: white;
+  border-radius: 5px;
+  font-size: medium;
+}
+small {
+  font-size: xx-small;
+}
